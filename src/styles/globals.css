@@ -424,3 +424,9 @@ header {
   color: #fff;
 }
 
+@media (max-width:1920px) and (min-width:1440px) {
+  .container {
+    width: 900px;
+    font-size: 15px;
+  }
+}
