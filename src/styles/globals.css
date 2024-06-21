@@ -430,3 +430,14 @@ header {
     font-size: 15px;
   }
 }
+@media (max-width:1440px) and (min-width:1280px) {
+  .container {
+    width: 800px;
+    font-size: 15px;
+  }
+
+  .product-list {
+    grid-template-columns: repeat(3, 280px);
+    font-size: 13px;
+  }
+}
