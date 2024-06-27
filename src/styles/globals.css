@@ -424,12 +424,14 @@ header {
   color: #fff;
 }
 
+/*АДАПТИВ 1920*/
 @media (max-width:1920px) and (min-width:1440px) {
   .container {
     width: 900px;
     font-size: 15px;
   }
 }
+/*АДАПТИВ 1440*/
 @media (max-width:1440px) and (min-width:1280px) {
   .container {
     width: 800px;
@@ -441,6 +443,7 @@ header {
     font-size: 13px;
   }
 }
+/*АДАПТИВ 1280*/
 @media (max-width:1280px) and (min-width:1024px) {
   .container {
     width: 750px;
@@ -460,6 +463,7 @@ header {
     padding: 0;
   }
 }
+/*АДАПТИВ 1024*/
 @media (max-width:1024px) and (min-width:768px) {
   .container {
     width: 739px;
@@ -467,15 +471,170 @@ header {
   }
 
   .product-list {
-    grid-template-columns: repeat(2, 150px);
+    grid-template-columns: repeat(2, 250px);
     font-size: 13px;
+    padding: 0;
   }
 
   nav a {
     margin-right: 20px;
     font-size: 20px;
   }
+
+  .product-image {
+    width: 100px;
+  }
+
+  .block_id_tovar {
+    width: 720px;
+  }
+
+  .img_product {
+    height: 180px;
+  }
+
+  .product-title {
+    font-size: 16px;
+  }
+}
+/*АДАПТИВ 768*/
+@media (max-width:768px) and (min-width:480px) {
+  .container {
+    width: 460px;
+    font-size: 15px;
+  }
+
   .product-list {
+    grid-template-columns: repeat(2, 200px);
+    font-size: 13px;
     padding: 0;
+  }
+
+  .name {
+    display: none;
+  }
+
+  nav a {
+    margin-right: 10px;
+    font-size: 16px;
+
+  }
+
+  nav {
+    height: 50px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .block_id_tovar {
+    width: 440px;
+  }
+
+  .img_product {
+    height: 180px;
+  }
+
+  .block_id_tovar .butt_addcart {
+    margin-left: 50px;
+  }
+
+  .product-image {
+    width: 85px;
+    height: 85px;
+  }
+
+  .product-title {
+    font-size: 12px;
+  }
+
+  .footer span {
+    margin-right: 50px;
+    font-size: 16px;
+  }
+
+  .footer {
+    height: 70px;
+  }
+}
+/*АДАПТИВ 480 И 360*/
+@media (max-width:480px) and (min-width:360px) {
+  .container {
+    width: 340px;
+    font-size: 15px;
+  }
+
+  .product-list {
+    grid-template-columns: repeat(1, 230px);
+    font-size: 13px;
+    padding: 0;
+  }
+
+  .name {
+    display: none;
+  }
+
+  nav a {
+    margin-right: 60px;
+    font-size: 18px;
+  }
+
+  nav {
+    height: 50px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .product-image {
+    width: 85px;
+    height: 85px;
+  }
+
+  .product-title {
+    font-size: 12px;
+  }
+
+  .block_id_tovar {
+    width: 320px;
+  }
+
+  .img_product {
+    height: 160px;
+  }
+
+  .block_id_tovar .butt_addcart {
+    margin-left: 0px;
+  }
+
+  .form-wrapper {
+    width: 250px;
+
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  form {
+    height: 230px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+  textarea {
+    margin-bottom: 10px;
+  }
+ 
+  .footer span {
+    margin-right: 30px;
+    font-size: 16px;
+  }
+
+  .footer {
+    height: 70px;
   }
 }
